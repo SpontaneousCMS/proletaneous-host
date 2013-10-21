@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'spontaneous', :git => "git@github.com:SpontaneousCMS/spontaneous.git"
 gem 'simultaneous', '~> 0.4.2'
-gem 'spontaneous', :git => "git@github.com:mediagreenhouse/spontaneous.git"
 gem 'pg', '~> 0.14.1'
 gem 'therubyracer',    '~> 0.11.1'
 
