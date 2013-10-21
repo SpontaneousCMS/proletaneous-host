@@ -1,0 +1,22 @@
+---
+:development: &defaults
+  :adapter:    postgres
+  :database:   proletaneous
+  :user:
+  :password:
+
+
+:test:
+  <<:         *defaults
+  :database:   proletaneous_test
+
+:production:
+  <<:         *defaults
+  :database:  proletaneous
+  :user:      pro
+  :password:
+
+:rake:
+  <<:         *defaults
+
+
